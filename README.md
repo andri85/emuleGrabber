@@ -1,59 +1,67 @@
-Funzionalità 
-🌐 Browser eD2K integrato
-Browser web basato su QWebEngineView
-Navigazione avanti/indietro
-Ricarica pagina
-Home
-Inserimento diretto dell'URL
-🔎 Rilevamento automatico dei link ed2k://
-Scansione del codice HTML della pagina
-Estrazione automatica dei link eD2K
-Rilevamento automatico dopo il caricamento della pagina
-Possibilità di disattivare l'intercettazione automatica
-📋 Gestione dei link eD2K
-Visualizzazione dei file individuati
-Contatore dei link
-Selezione multipla
-Rimozione dei link selezionati
-Svuotamento completo della lista
-♻️ Eliminazione automatica dei duplicati
-Confronto case-insensitive
-Opzione attivabile/disattivabile dall'interfaccia
-📎 Monitoraggio degli appunti
-Controllo automatico della clipboard
-Individuazione dei link eD2K copiati
-Importazione automatica nella lista
-Incolla manuale tramite pulsante dedicato
-📂 Importazione da file
-Importazione di .ed2k
-Importazione di .txt
-Estrazione automatica dei link presenti nei file
-💾 Salvataggio e caricamento delle liste
-Salvataggio in formato .ed2k
-Salvataggio in formato .json
-Caricamento da .ed2k, .txt e .json
-🚀 Invio dei link direttamente a eMule
-Invio dell'intera lista
-Invio dei soli elementi selezionati
-Utilizzo del protocollo ed2k:// associato al sistema operativo
-⏱️ Invio controllato con delay
-Ritardo configurabile tra un link e il successivo
-Intervallo da 0 a 3600 secondi
-📊 Progress tracking
-Barra di avanzamento
-Stato dell'operazione
-Conteggio dei link inviati
-Conteggio degli invii falliti
-⛔ Interruzione dell'invio
-Pulsante STOP
-Arresto controllato del processo di invio
-Report degli elementi già inviati e di quelli falliti
-⚙️ Persistenza delle impostazioni
-Salvataggio automatico delle preferenze
-Persistenza del delay
-Persistenza dell'opzione anti-duplicati
-File di configurazione JSON nella home dell'utente
-🧵 Invio in background
-Utilizzo di QThread
-Interfaccia grafica non bloccata durante l'invio
-Segnalazione asincrona di progresso, stato e completamento
+Certo. Te lo metterei **riga per riga**, pronto da copiare nella sezione `Features` del README GitHub:
+
+## ✨ Features
+
+🌐 **Integrated Web Browser**
+Browser web integrato per navigare direttamente nell'applicazione.
+
+🔎 **Automatic eD2K Detection**
+Rilevamento automatico dei link `ed2k://` presenti nelle pagine web.
+
+📄 **Page Scanner**
+Scansione manuale delle pagine per individuare tutti i link eD2K disponibili.
+
+📋 **Clipboard Monitoring**
+Monitoraggio automatico degli appunti per intercettare i link `ed2k://` copiati.
+
+📎 **Manual Clipboard Import**
+Possibilità di importare manualmente i link eD2K dalla clipboard.
+
+♻️ **Duplicate Detection**
+Rilevamento e gestione automatica dei link duplicati.
+
+📂 **File Import**
+Importazione di link eD2K da file `.ed2k` e `.txt`.
+
+💾 **List Export**
+Salvataggio delle liste in formato `.ed2k` o `.json`.
+
+📁 **List Import**
+Caricamento di liste precedentemente salvate.
+
+📋 **Link Management**
+Gestione completa dei link raccolti con selezione multipla, rimozione e pulizia della lista.
+
+🚀 **Direct eMule Integration**
+Invio diretto dei link `ed2k://` all'applicazione associata, come eMule.
+
+📦 **Batch Sending**
+Invio automatico di un'intera lista di link in sequenza.
+
+🎯 **Selective Sending**
+Possibilità di inviare solamente i link selezionati.
+
+⏱️ **Configurable Delay**
+Ritardo configurabile tra l'invio di un link e il successivo.
+
+📊 **Progress Tracking**
+Barra di avanzamento e stato dettagliato durante l'invio dei link.
+
+⛔ **Send Cancellation**
+Possibilità di interrompere un'operazione di invio in corso.
+
+🧵 **Background Processing**
+Invio dei link tramite thread dedicato per mantenere l'interfaccia reattiva.
+
+⚙️ **Persistent Settings**
+Salvataggio automatico delle impostazioni dell'applicazione.
+
+🖥️ **Cross-Platform Protocol Handling**
+Gestione del protocollo `ed2k://` tramite il sistema operativo su Windows, macOS e Linux.
+
+🔢 **Link Counter**
+Contatore in tempo reale dei link presenti nella lista.
+
+💡 **User-Friendly Qt Interface**
+Interfaccia grafica desktop realizzata con PySide6.
+
