@@ -70,4 +70,4 @@ linux ubuntu e derivate
 cosole gnome:
 python3 tuo_.py
 I link verranno intercettati automaticamente una volta presenti nella pagina web per link emule
-
+##
