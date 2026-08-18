@@ -1,5 +1,3 @@
-Certo. Te lo metterei **riga per riga**, pronto da copiare nella sezione `Features` del README GitHub:
-
 ## ✨ Features
 
 🌐 **Integrated Web Browser**
