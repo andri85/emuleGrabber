@@ -62,12 +62,31 @@ Contatore in tempo reale dei link presenti nella lista.
 
 💡 **User-Friendly Qt Interface**
 Interfaccia grafica desktop realizzata con PySide6.
+## 🚀 Come usarlo
 
-Come usarlo:
-aprire powershell windows x/11
+### 🪟 Windows 10 / 11
+
+Aprire **PowerShell**.
+
+Eseguire:
+
+```bash
 python3 tuo_.py
-linux ubuntu e derivate
-cosole gnome:
+```
+
+### 🐧 Linux — Ubuntu e derivate
+
+Aprire la **console / terminale GNOME**.
+
+Eseguire:
+
+```bash
 python3 tuo_.py
-I link verranno intercettati automaticamente una volta presenti nella pagina web per link emule
-##
+```
+
+### 🔗 Intercettazione automatica dei link
+
+Una volta aperta una pagina web contenente link per **eMule / eD2K**, i link `ed2k://` verranno **intercettati automaticamente** e aggiunti alla lista.
+
+È inoltre possibile utilizzare la funzione **"Scansiona pagina"** per cercare manualmente i link eD2K presenti nella pagina.
+
