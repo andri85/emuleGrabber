@@ -63,3 +63,11 @@ Contatore in tempo reale dei link presenti nella lista.
 💡 **User-Friendly Qt Interface**
 Interfaccia grafica desktop realizzata con PySide6.
 
+Come usarlo:
+aprire powershell windows x/11
+python3 tuo_.py
+linux ubuntu e derivate
+cosole gnome:
+python3 tuo_.py
+I link verranno intercettati automaticamente una volta presenti nella pagina web per link emule
+
